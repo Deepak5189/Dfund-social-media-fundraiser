@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  /* background: radial-gradient(circle, rgb(226, 221, 228) 20%, rgb(56, 97, 144) 100%); */
+  /* color: white; */
+}
