@@ -5,9 +5,9 @@ import ExploreFeeds from './Feeds/ExploreFeeds';
 
 const HomeComponent = () => {
 
-  const [feed, setFeed]=useState('for-you');
+  const [feed, setFeed]=useState<string>('for-you');
 
-  const handleFeed=(changeFeed)=>{
+  const handleFeed=(changeFeed: string)=>{
     setFeed(changeFeed);
   };
 
