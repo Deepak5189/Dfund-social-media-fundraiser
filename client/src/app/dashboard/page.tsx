@@ -7,7 +7,7 @@ const Dashboard = () => {
       <div className="w-full py-5 px-2 col-span-2 border-r-2">
         <div className="fixed">Hello</div>
       </div>
-      <div className="col-span-8">
+      <div className="col-span-8 drop-shadow">
         <HomeComponent/>
       </div>
       <div className="w-full py-5 px-2 col-span-2 border-l-2">Sidebar Right</div>
