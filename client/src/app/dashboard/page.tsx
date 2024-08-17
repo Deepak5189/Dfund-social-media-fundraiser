@@ -6,7 +6,7 @@ import React from 'react'
 const Dashboard = () => {
   return (
     <div className="grid grid-cols-12">
-      <div className="w-full py-5 pl-2 col-span-2 border-r-2">
+      <div className="w-full pl-2 col-span-2 border-r-2">
         <div className="overflow-scroll">
          <SidebarLeft/>
         </div>
