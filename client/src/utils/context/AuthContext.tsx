@@ -50,14 +50,16 @@ export const AuthProvider=({children}:{children:ReactNode})=>{
   const [user, SetUser]=useState<User>(initUser)
 
   const login= async (loginData:LoginData)=>{
-    const {user}=await fetch('',{
+    const response=await fetch('',{
       method:'POST',
       headers:{
         'Content-Type':'application/json',
       },
       body:JSON.stringify(loginData),
     });
-    SetUser(user);
+    const data=await response.json();
+    const {username,email,userId,profile}=data;
+    SetUser({username, email, userId, profile, isAuthenticated: true});
     return "User logged in successfully!!!!!!!!"
   }
 
