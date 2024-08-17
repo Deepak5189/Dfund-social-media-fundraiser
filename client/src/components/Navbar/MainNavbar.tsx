@@ -7,10 +7,10 @@ import { FaSearch, FaUser } from 'react-icons/fa'
 const MainNavbar = () => {
   return (
     <nav className='flex mx-24 py-3 justify-between items-center'>
-      <div className="flex items-end drop-shadow-lg p-0 m-0">
+      <Link href='/dashboard' className="flex items-end drop-shadow-lg p-0 m-0">
         <Image src='./logo.svg' width={50} height={50} alt='logo'/>
         {/* <span className='text-xl font-semibold'>DF</span><span>und</span> */}
-      </div>
+      </Link>
       <div className="flex items-center gap-5">
         <div className="flex items-center gap-3 backdrop-blur-lg">
           <input type="text" className='bg-transparent border-b focus:outline-none px-1' placeholder='search for a campaign...'/>

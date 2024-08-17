@@ -5,8 +5,8 @@ export default function DashboardLayout({
 }:Readonly<{children: React.ReactNode;
 }>){
   return(
-    <div className="h-screen flex flex-col w-screen">
-      <header className="bg-transparent backdrop-blur-md drop-shadow-lg">
+    <div className="bg-white flex flex-col w-screen">
+      <header className="bg-transparant sticky top-0 z-10 w-full backdrop-blur-md drop-shadow-lg">
         <MainNavbar/>
       </header>
       <main className="text-black">
