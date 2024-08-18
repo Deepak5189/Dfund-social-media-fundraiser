@@ -9,7 +9,7 @@ export default function AuthLayout({
       <header className="bg-transparent backdrop-blur-md drop-shadow-lg">
         <AuthNavbar/>
       </header>
-      <main className="flex text-black m-auto">
+      <main className="flex text-black mx-auto sm:my-auto my-[18vh]">
         {children}
       </main>
     </div>
