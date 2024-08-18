@@ -2,7 +2,9 @@ import React from 'react'
 
 const ExploreFeeds = () => {
   return (
-    <div>ExploreFeeds</div>
+    <div className='overflow-scroll p-10'>
+      Explore
+    </div>
   )
 }
 
