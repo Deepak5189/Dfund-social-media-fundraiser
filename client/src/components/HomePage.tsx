@@ -5,26 +5,26 @@ import { FaYoutube } from 'react-icons/fa6'
 
 const HomePage = () => {
   return (
-    <main className="w-screen flex flex-col" id="home">
+    <main className=" flex flex-col" id="home">
       {/* style={{background: 'radial-gradient(circle, rgb(226, 221, 228) 20%, rgb(56, 97, 144) 100%)'}} */}
       <div className=" bg-[#cfcfe2]" >
         <header className="bg-transparent backdrop-blur-md drop-shadow-lg">
           <Navbar/>
         </header>
         <div className="mx-auto flex flex-col gap-5 w-[90%]" id="hero">
-          <div className="flex justify-between items-center">
-            <div className="flex px-5 py-10 mt-20 flex-col gap-10">
+          <div className="flex flex-col sm:flex-row justify-between items-center">
+            <div className="flex px-5 py-10 mt-20 flex-col gap-10 sm:w-[60%]">
             <span className="flex flex-col gap-5">
-              <span className="flex items-end gap-3"><h1 className="text-3xl font-semibold ">DFund</h1><h3 className="text-sm pb-1">Let&apos;s Raise some Fund together.</h3></span>
-              <h3 className="text-5xl">Dfund is A Fundraising Platform, Which let&apos;s you raise fund by creating campaigns and attract other&apos;s attention.</h3>
+              <span className="flex items-end gap-3"><h1 className="text-5xl sm:text-3xl font-semibold ">DFund</h1><h3 className="text-sm pb-1">Let&apos;s Raise some Fund together.</h3></span>
+              <h3 className="text-3xl text-center sm:text-start sm:text-[4vw]">Dfund is A Fundraising Platform, Which let&apos;s you raise fund by creating campaigns and attract other&apos;s attention.</h3>
             </span>
-            <div className="flex gap-3 text-md text-nowrap">
+            <div className="flex gap-3 text-md text-nowrap flex-wrap md:flex-nowrap items-center">
               <h3 className="drop-shadow-sm text-black px-3 py-2 bg-white rounded-md">Create Campaign, Ask For funding</h3>
               <h3 className="bg-white text-black px-3 py-2 drop-shadow-sm rounded-md">Let it be viral</h3>
-              <h3 className="bg-white px-3 py-2 text-black drop-shadow-sm rounded-md">If someone likes your campaign, He can donate to you.</h3>
+              <h3 className="bg-white px-3 py-2 text-black drop-shadow-sm rounded-md">If someone likes your campaign, He <br /> can donate to you.</h3>
             </div>
             </div>
-            <div className="">
+            <div className="w-[60%]">
               <Image src="/landing.png" alt="fundraiser" width={1500} height={1500} />
             </div>
           </div>
