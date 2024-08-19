@@ -5,7 +5,7 @@ import { FaComment, FaHeart, FaShare } from 'react-icons/fa6'
 
 const CampaignCard = () => {
   return (
-    <div className="w-[500px] sm:w-[50vw]">
+    <div className="sm:w-[50vw] w-[70vw]">
       <div className="mx-auto shadow rounded p-5 shadow-gray-700 flex flex-col gap-5">
         <div className="flex items-center justify-between">
           <div className="flex items-center">
