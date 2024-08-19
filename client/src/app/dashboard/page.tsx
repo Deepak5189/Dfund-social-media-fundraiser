@@ -11,7 +11,7 @@ const Dashboard = () => {
          <SidebarLeft/>
         </div>
       </div>
-      <div className="col-span-8 drop-shadow h-[620px] overflow-scroll">
+      <div className="col-span-8 drop-shadow h-[100vh] overflow-scroll">
         <HomeComponent/>
       </div>
       <div className="w-full py-5 px-2 col-span-2 border-l-2">
