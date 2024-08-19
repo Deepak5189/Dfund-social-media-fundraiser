@@ -47,7 +47,7 @@ const MainNavbar = () => {
           <span className='px-3 py-[1px] bg-[#6663A6]'></span>
           <span className='px-3 py-[1px] bg-[#6663A6]'></span>
         </button>
-        <div className={`${!isMenuOpen&& 'hidden'} absolute top-0 -right-[500px] w-[30%] z-[10] bg-[#6663A6] ${isMenuOpen && 'absolute right-0 transition-transform ease-in-out -translate-x-[500px]'}`}>
+        <div className={`${!isMenuOpen&& 'hidden'} absolute top-0 -right-[500px] w-[50%] z-[10] bg-[#6663A6] ${isMenuOpen && 'absolute right-0'}`}>
           <div className="absolute top-6 right-6 text-3xl font-semibold text-white cursor-pointer" onClick={()=>handleMenu(false)}>X</div>
           <ul className='flex flex-col text-white text-[3vw] mt-10 py-10 items-center gap-2'>
             <Link href='/dashboard' className='active:text-[#6663A6] w-full px-5 active:bg-slate-300 py-1 rounded flex items-center gap-3'><FaHome/> Home</Link>

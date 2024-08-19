@@ -7,6 +7,7 @@ const nextConfig = {
       'w7.pngwing.com',
       'cdn-icons-png.freepik.com',
       'vectips.com',
+      'img.freepik.com',
     ],
   },
 };

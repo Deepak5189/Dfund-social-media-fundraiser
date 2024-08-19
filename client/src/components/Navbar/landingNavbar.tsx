@@ -40,7 +40,7 @@ const Navbar = () => {
           <span className='px-3 py-[1px] bg-[#6663A6]'></span>
           <span className='px-3 py-[1px] bg-[#6663A6]'></span>
         </button>
-        <div className={`${!isMenuOpen&& 'hidden'} absolute top-0 -right-[500px] w-[50%] z-[10] bg-[#6663A6] ${isMenuOpen && 'absolute right-0 transition-transform ease-in-out -translate-x-[500px]'}`}>
+        <div className={`${!isMenuOpen&& 'hidden'} absolute top-0 -right-[500px] w-[50%] z-[10] bg-[#6663A6] ${isMenuOpen && 'absolute right-0'}`}>
           <div className="absolute top-6 right-6 text-3xl font-semibold text-white cursor-pointer" onClick={()=>handleMenu(false)}>X</div>
           <ul className='flex flex-col text-white py-10 items-center gap-5'>
             <li><Link href='#home'>Home</Link></li>
